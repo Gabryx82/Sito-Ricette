@@ -1,0 +1,20 @@
+table, td, th {
+    border: 3px solid #d0ba0a;
+    padding: 5px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    width: 35%;
+}
+
+.cart {
+    background: #c7730f;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    border: 2px solid black;
+    display: block;
+    left: 30%;
+    right: 30%;
+}

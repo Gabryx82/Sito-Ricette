@@ -1,0 +1,92 @@
+.sidebar {
+    height: 22%;
+    width: 0%;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #c7730f;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+.openbtn {
+    top: 0px;
+    left: 0px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #c7730f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+
+    .sidebar a {
+        font-size: 18px;
+    }
+}
+
+/* Stile del selettore di difficoltà e della label */
+label[for="difficolta"] {
+    font-size: 15px;
+    font-family: Arial, sans-serif; /* Font chiaro e leggibile */
+    margin-right: 5px;
+}
+
+#difficolta {
+    font-size: 12px; /* Dimensione testo ingrandita */
+    padding: 8px;
+    margin-right: 10px;
+}
+
+/* Stile del pulsante "Filtra" */
+#filtra {
+    font-size: 16px;
+    padding: 10px 15px;
+    background-color: #ffffff; /* Colore bianco per maggiore visibilità */
+    color: #000000; /* Testo nero */
+    border: 1px solid #c7730f; /* Aggiunge un bordo */
+    cursor: pointer;
+    margin-left: 15px; /* Posiziona il pulsante accanto al selettore */
+    margin-bottom: 5px;
+}
+
+/* Opzioni del selettore sempre visibili */
+#difficolta option {
+    color: black;
+    background-color: white;
+    padding: 5px;
+}
+
+/* Rimuove il bordo visibile e outline */
+#mySidebar select, #mySidebar button {
+    outline: none;
+    border: none;
+}
+
+@media screen and (max-width: 700px) {
+    #prezzomax,#prezzoMaxLab,#filtra{
+        display: block;
+        margin-right:15%;
+    }
+    .closebtn{
+        margin-right: 20%;
+    }
+}

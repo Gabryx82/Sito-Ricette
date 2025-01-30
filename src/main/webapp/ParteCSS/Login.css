@@ -1,0 +1,48 @@
+table, td, th {
+    border: 3px solid #d0ba0a;
+    padding: 5px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    width: 35%;
+}
+
+button {
+    cursor: pointer;
+    margin: 5px auto;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: auto;
+    right: auto;
+    top: 20%;
+    width: 50%;
+}
+
+.cart {
+    background: #c7730f;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    border: 2px solid black;
+    display: block;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 20px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background-color: white;
+}
+
+.sfondo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

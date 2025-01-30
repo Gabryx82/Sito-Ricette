@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/ParteHTML/navBar.jsp" value="file://$PROJECT_DIR$/src/main/webapp/ParteHTML" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/amministratore/AggiuntaNuovaRicetta.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/amministratore" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/amministratore/ModificaRicetta.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/amministratore" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/amministratore/VediTuttiIProdotti.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/amministratore" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/amministratore/VisualizzaUtenti.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/amministratore" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/results/Login.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/results" />
+      </map>
+    </option>
+  </component>
+</project>

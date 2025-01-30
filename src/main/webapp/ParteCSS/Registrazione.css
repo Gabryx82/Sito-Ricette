@@ -1,0 +1,45 @@
+table {
+    border: 3px solid #d0ba0a;
+    padding: 5px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 35%;
+}
+
+.sfondo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="email"], input[type="password"], input[type="text"], input[type="tel"] {
+    width: 100%;
+    padding: 20px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background-color: white;
+}
+
+button {
+    cursor: pointer;
+    margin: 5px;
+    background: none;
+    border: none;
+    margin-left: 45%;
+    top: 5%;
+    width: 10%;
+}
+
+.cart {
+    background: #c7730f;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    border: 2px solid black;
+    display: block;
+    left: 30%;
+    right: 30%;
+}

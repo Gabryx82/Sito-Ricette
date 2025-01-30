@@ -1,0 +1,30 @@
+body{
+    font-family: Ariel, Helvetica, sans-serif;
+    font-size: 100%;
+    color: #333;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7) 0 100%), url('../immagini/BackgroundSito.jpg');
+    background-size: cover;
+}
+
+.contatti{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cart{
+    background: #c7730f;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    border: 2px solid black;
+    display: block;
+    left: 30%;
+    right: 30%;
+}

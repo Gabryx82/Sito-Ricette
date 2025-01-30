@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="ParteCSS/Filter.css">
+  <title>Filtro Prodotti</title>
+</head>
+<body>
+<div id="mySidebar" class="sidebar">
+  <form action="FiltraggioServletDifficolta">
+    <label for="difficolta">Difficolt&#224;:</label>
+    <select id="difficolta" name="difficolta">
+      <option value="Molto Facile">Molto Facile</option>
+      <option value="Facile">Facile</option>
+      <option value="Media">Media</option>
+      <option value="Difficile">Difficile</option>
+      <option value="Molto Difficile">Molto Difficile</option>
+    </select>
+    <button id="filtra" onclick="return validate()" value="filtra">Filtra</button>
+  </form>
+</div>
+
+<div style="padding: 5px">
+  <button class="openbtn" onclick="openNav()">Filtra</button>
+</div>
+
+<script>
+  function openNav() {
+    var sidebar = document.getElementById("mySidebar");
+    if (sidebar.style.width === "0px" || sidebar.style.width === "") {
+      sidebar.style.width = "300px"; // Dimensione desiderata della sidebar
+      sidebar.classList.add("sidebar-open");
+    } else {
+      closeNav(); // Chiude se è già aperta
+    }
+  }
+
+  function closeNav() {
+    var sidebar = document.getElementById("mySidebar");
+    sidebar.style.width = "0";
+    sidebar.classList.remove("sidebar-open");
+  }
+
+  function validate(){
+    var difficolta = document.getElementById('difficolta').value;
+    if(difficolta === ""){
+      alert("Seleziona una difficoltà");
+      return false;
+    }
+    return true;
+  }
+</script>
+</body>
+</html>
